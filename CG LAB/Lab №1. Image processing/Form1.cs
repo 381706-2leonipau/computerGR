@@ -45,28 +45,29 @@ namespace Lab__1.Image_processing
 
         private void чернобелыйToolStripMenuItem_Click_1(object sender, EventArgs e)
         {
-            for (int i = 0; i < image.Width; i++)
-                for (int j = 0; j < image.Height; j++)
-                {
-                    Color sourceColor = image.GetPixel(i, j);
-                    int color = (sourceColor.R + sourceColor.G + sourceColor.B ) / 3;
-                    Color resultColor = Color.FromArgb(color, color, color);
-                    image.SetPixel(i, j, resultColor);
-                }
+            /* for (int i = 0; i < image.Width; i++)
+                 for (int j = 0; j < image.Height; j++)
+                 {
+                     Color sourceColor = image.GetPixel(i, j);
+                     int color = (sourceColor.R + sourceColor.G + sourceColor.B ) / 3;
+                     Color resultColor = Color.FromArgb(color, color, color);
+                     image.SetPixel(i, j, resultColor);
+                 }
+             pictureBox1.Refresh();*/
+            BlackWhite filter = new BlackWhite();
+            Bitmap resultImage = filter.processImage(image);
+            pictureBox1.Image = resultImage;
             pictureBox1.Refresh();
         }
 
         private void постеризацияToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            for (int i = 0; i < image.Width; i++)
-                for (int j = 0; j < image.Height; j++)
-                {
-                    Color sourceColor = image.GetPixel(i, j);
-                    const int val = 6;
-                    Color resultColor = Color.FromArgb(((sourceColor.R >> val) << val) + 32, ((sourceColor.G >> val) << val) + 32, ((sourceColor.B >> val) << val) + 32);
-                    image.SetPixel(i, j, resultColor);
-                }
+            Posterization filter = new Posterization();
+            Bitmap resultImage = filter.processImage(image);
+            pictureBox1.Image = resultImage;
             pictureBox1.Refresh();
+
+
         }        
 
         private void безФильтровToolStripMenuItem_Click(object sender, EventArgs e)

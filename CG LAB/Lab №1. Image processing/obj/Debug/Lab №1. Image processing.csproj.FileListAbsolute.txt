@@ -27,3 +27,13 @@ C:\Users\Леонид\Desktop\CG LAB\computerGR\CG LAB\Lab №1. Image processin
 C:\Users\Леонид\Desktop\CG LAB\computerGR\CG LAB\Lab №1. Image processing\obj\Debug\Lab №1. Image processing.csproj.CoreCompileInputs.cache
 C:\Users\Леонид\Desktop\CG LAB\computerGR\CG LAB\Lab №1. Image processing\obj\Debug\Lab__1.Image_processing.exe
 C:\Users\Леонид\Desktop\CG LAB\computerGR\CG LAB\Lab №1. Image processing\obj\Debug\Lab__1.Image_processing.pdb
+C:\Users\Леонид\Desktop\123213\computerGR\CG LAB\Lab №1. Image processing\bin\Debug\Lab__1.Image_processing.exe.config
+C:\Users\Леонид\Desktop\123213\computerGR\CG LAB\Lab №1. Image processing\bin\Debug\Lab__1.Image_processing.exe
+C:\Users\Леонид\Desktop\123213\computerGR\CG LAB\Lab №1. Image processing\bin\Debug\Lab__1.Image_processing.pdb
+C:\Users\Леонид\Desktop\123213\computerGR\CG LAB\Lab №1. Image processing\obj\Debug\Lab №1. Image processing.csprojAssemblyReference.cache
+C:\Users\Леонид\Desktop\123213\computerGR\CG LAB\Lab №1. Image processing\obj\Debug\Lab__1.Image_processing.Form1.resources
+C:\Users\Леонид\Desktop\123213\computerGR\CG LAB\Lab №1. Image processing\obj\Debug\Lab__1.Image_processing.Properties.Resources.resources
+C:\Users\Леонид\Desktop\123213\computerGR\CG LAB\Lab №1. Image processing\obj\Debug\Lab №1. Image processing.csproj.GenerateResource.cache
+C:\Users\Леонид\Desktop\123213\computerGR\CG LAB\Lab №1. Image processing\obj\Debug\Lab №1. Image processing.csproj.CoreCompileInputs.cache
+C:\Users\Леонид\Desktop\123213\computerGR\CG LAB\Lab №1. Image processing\obj\Debug\Lab__1.Image_processing.exe
+C:\Users\Леонид\Desktop\123213\computerGR\CG LAB\Lab №1. Image processing\obj\Debug\Lab__1.Image_processing.pdb
