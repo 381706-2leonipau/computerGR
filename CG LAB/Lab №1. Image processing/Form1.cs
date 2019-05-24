@@ -73,5 +73,31 @@ namespace Lab__1.Image_processing
             pictureBox1.Image = resultImage;
             pictureBox1.Refresh();
         }
+
+        private void блюрToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Blur myBlur = new Blur();
+            Bitmap resultImage = myBlur.processImage(image);
+            pictureBox1.Image = resultImage;
+            pictureBox1.Refresh();
+
+            /*
+             * 
+             *      BlurFilter MyBlur = new BlurFilter();
+                    Color ReversedColor = MyBlur.CalculateNewClolor(MyImg, i, j);
+                    MyImg.SetPixel(i, j, ReversedColor);
+             * 
+             * 
+            Color ReversedColor = filter.CalculateNewClolor(image, i, j);
+            MyImg.SetPixel(i, j, ReversedColor);
+            pictureBox1.Refresh();
+
+             Color ReversedColor = MyImg.GetPixel(i, j);
+                    if (ReversedColor.B + ReversedColor.G + ReversedColor.R > 325)
+                        ReversedColor = Color.FromArgb(255, 255, 255);
+                    else
+                        ReversedColor = Color.FromArgb(0, 0, 0);
+                    MyImg.SetPixel(i, j, ReversedColor);*/
+        }
     }
 }

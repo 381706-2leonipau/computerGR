@@ -36,10 +36,11 @@
             this.инверсияToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.чернобелыйToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.постеризацияToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.бинаризацияToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.матричныеToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.безФильтровToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.бинаризацияToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.блюрToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -112,8 +113,17 @@
             this.постеризацияToolStripMenuItem.Text = "Постеризация";
             this.постеризацияToolStripMenuItem.Click += new System.EventHandler(this.постеризацияToolStripMenuItem_Click);
             // 
+            // бинаризацияToolStripMenuItem
+            // 
+            this.бинаризацияToolStripMenuItem.Name = "бинаризацияToolStripMenuItem";
+            this.бинаризацияToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.бинаризацияToolStripMenuItem.Text = "Бинаризация";
+            this.бинаризацияToolStripMenuItem.Click += new System.EventHandler(this.бинаризацияToolStripMenuItem_Click);
+            // 
             // матричныеToolStripMenuItem
             // 
+            this.матричныеToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.блюрToolStripMenuItem});
             this.матричныеToolStripMenuItem.Name = "матричныеToolStripMenuItem";
             this.матричныеToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.матричныеToolStripMenuItem.Text = "Матричные";
@@ -134,12 +144,12 @@
             this.pictureBox1.TabIndex = 1;
             this.pictureBox1.TabStop = false;
             // 
-            // бинаризацияToolStripMenuItem
+            // блюрToolStripMenuItem
             // 
-            this.бинаризацияToolStripMenuItem.Name = "бинаризацияToolStripMenuItem";
-            this.бинаризацияToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.бинаризацияToolStripMenuItem.Text = "Бинаризация";
-            this.бинаризацияToolStripMenuItem.Click += new System.EventHandler(this.бинаризацияToolStripMenuItem_Click);
+            this.блюрToolStripMenuItem.Name = "блюрToolStripMenuItem";
+            this.блюрToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.блюрToolStripMenuItem.Text = "Блюр";
+            this.блюрToolStripMenuItem.Click += new System.EventHandler(this.блюрToolStripMenuItem_Click);
             // 
             // Form1
             // 
@@ -173,6 +183,7 @@
         private System.Windows.Forms.ToolStripMenuItem постеризацияToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem безФильтровToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem бинаризацияToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem блюрToolStripMenuItem;
     }
 }
 
